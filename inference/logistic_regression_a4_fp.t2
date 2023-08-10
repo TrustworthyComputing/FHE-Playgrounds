@@ -1,0 +1,29 @@
+int main(void) {
+  int num_inferences, num_attributes;
+  double[] weights;
+  EncDouble acc;
+  EncDouble[] inputs;
+
+  num_inferences = 10;
+  num_attributes = 4;
+  weights = { 1.0, 2.0, 3.0, 4.0 };
+  acc = 0;
+  inputs = new EncDouble[num_attributes];
+  inputs[0] = { 1, 4, 7, 10, 13, 16, 19, 22, 25, 28 };
+  inputs[1] = { 2, 5, 8, 11, 14, 17, 20, 23, 26, 29 };
+  inputs[2] = { 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 };
+  inputs[3] = { 1, 3, 6, 9, 12, 15, 18, 21, 24, 27 };
+
+  // Server side encrypted computation. //
+
+  tstart();
+
+  // TODO: Perform Logistic regression similarly to the python file using EncDouble (for CKKS).
+  // Note: use reduce_noise() and match_params() T2 functions
+
+  tstop();
+
+  // Decrypt
+  print_batched(acc, 3);
+  return 0;
+}
