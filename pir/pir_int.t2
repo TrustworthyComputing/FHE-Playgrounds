@@ -1,0 +1,20 @@
+int main(void) {
+  EncInt db, key_input, result;
+  int sz;
+
+  sz = 8;
+  db =   { 10, 20, 30, 40, 50, 60, 70, 80 };
+  // TODO: Define key_input
+
+  // Server side encrypted computation. //
+  tstart();
+
+  // TODO: Perform PIR similarly to the python file.
+  // This Integer version of PIR utilizes batching and does not involve comparisons.
+
+  tstop();
+
+  // Decrypt
+  print_batched(result, sz);
+  return 0;
+}

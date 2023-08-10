@@ -1,0 +1,25 @@
+int main(void) {
+  EncInt[] db;
+  EncInt key_input, result;
+  // Define EncInt and ints here as needed.
+  // EncInt x;
+  // int y;
+
+  n = 8;
+  key_input = 3;
+  zero = 0;
+  db = { 10, 20, 30, 40, 50, 60, 70, 80 };
+
+  // Server side encrypted computation. //
+  result = 0;
+  tstart();
+
+  // TODO: Perform PIR similarly to the python file.
+  // This Binary version of PIR requires encrypted comparisons.
+
+  tstop();
+
+  // Decrypt
+  print(result);
+  return 0;
+}
