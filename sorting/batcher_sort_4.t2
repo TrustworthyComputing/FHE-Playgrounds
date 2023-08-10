@@ -1,0 +1,23 @@
+int main(void) {
+  EncInt[] arr;
+  int arr_size;
+  // Define EncInt and ints here as needed.
+  // EncInt x;
+  // int y;
+
+  arr_size = 4;
+  arr = { 5, 6, 2, 8 };
+
+  tstart();
+
+  // TODO: Perform sorting similarly to the python file.
+  // Note, try first transforming the python algorithm to an iterative one.
+
+  tstop();
+
+  for (i = 0; i < arr_size; i++) {
+    print(arr[i]);
+  }
+  return 0;
+}
+
