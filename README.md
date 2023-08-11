@@ -6,7 +6,11 @@ This ...
 
 1. [Encrypted Image Filtering](./image-filtering)
 2. [Encrypted Sorting](./sorting)
-3.
+3. [Private Information Retrieval](./pir)
+4. [Encrypted Inference](./inference)
+5. [Encrypted Aggregation](./aggregation)
+6. [Encrypted Functional Units](./functional-units)
+7. [Encrypted Plagiarism Detection](./plagiarism)
 
 
 <p align="center">

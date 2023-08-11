@@ -1,0 +1,22 @@
+int main(void) {
+  EncInt[] a, b;
+  EncInt[] result;
+  // Define EncInt and ints here as needed.
+  // EncInt x;
+  // int y;
+
+  a = {1, 0, 1, 1};
+  b = {0, 0, 0, 1};
+
+  // Server side encrypted computation. //
+  tstart();
+
+  // TODO: Implement a 4 bit adder similarly to the python file.
+  // Use the binary encodings of T2 using --w 4
+
+  tstop();
+
+  // Decrypt
+  print(result);
+  return 0;
+}

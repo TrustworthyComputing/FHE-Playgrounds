@@ -1,0 +1,21 @@
+int main(void) {
+  EncInt[] buckets, votes;
+  // Define EncInt and ints here as needed.
+  // EncInt x;
+  // int y;
+
+  votes = {0, 1, 1, 0, 0, 0, 3, 3};
+  buckets = {0, 0, 0, 0};
+
+  // Server side encrypted computation. //
+  tstart();
+
+  // TODO: Perform encrypted aggregation similarly to the python file.
+  // This Binary version of aggregation requires encrypted comparisons.
+
+  tstop();
+
+  // Decrypt
+  print(buckets);
+  return 0;
+}

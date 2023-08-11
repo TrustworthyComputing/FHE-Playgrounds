@@ -1,0 +1,21 @@
+int main(void) {
+  EncInt db, buckets;
+  int sz;
+
+  sz = 4;
+  buckets = { 0, 0, 0, 0 };
+  // votes = // TODO: define based on votes from the Python file
+  // TODO: Define key_input
+
+  // Server side encrypted computation. //
+  tstart();
+
+  // TODO: Perform encrypted aggregation similarly to the python file.
+  // This Integer version utilizes batching and does not involve comparisons.
+
+  tstop();
+
+  // Decrypt
+  print_batched(buckets, sz);
+  return 0;
+}
