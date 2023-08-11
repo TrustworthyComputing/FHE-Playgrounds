@@ -10,7 +10,7 @@ This ...
 4. [Encrypted Inference](./inference)
 5. [Encrypted Aggregation](./aggregation)
 6. [Encrypted Functional Units](./functional-units)
-7. [Encrypted Plagiarism Detection](./plagiarism)
+7. [Encrypted String Similarity Detection](./string-similarity)
 
 
 <p align="center">
