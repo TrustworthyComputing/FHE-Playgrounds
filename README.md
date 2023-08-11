@@ -2,7 +2,7 @@
 
 
 ### Overview
-This ...
+Fully Homomorphic Encryption (FHE) Playgrounds offer simple challenges and guidelines to get started with FHE applications.
 
 1. [Encrypted Image Filtering](./image-filtering)
 2. [Encrypted Sorting](./sorting)
