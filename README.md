@@ -12,6 +12,8 @@ Fully Homomorphic Encryption (FHE) Playgrounds offer simple challenges and guide
 6. [Encrypted Functional Units](./functional-units)
 7. [Encrypted String Similarity Detection](./string-similarity)
 
+## Acknowledgments
+This work was supported by the National Science Foundation (Award #2239334).
 
 <p align="center">
     <img src="./logos/twc.png" height="20%" width="20%">
